@@ -1,10 +1,7 @@
 #!/bin/ruby
 
-# a = gets.strip
-# b = gets.strip
-
-a = 'cde'
-b = 'abc'
+a = gets.strip
+b = gets.strip
 
 def calc_frequency(string, storage)
   string.each_char do |letter|
